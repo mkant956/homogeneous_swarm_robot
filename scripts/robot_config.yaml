@@ -1,0 +1,31 @@
+robot_id : 0
+node_name : execute_command_server_bane
+dist_topic : 
+  front : front_dist_bane
+  left : left_dist_bane
+  right : right_dist_bane
+dist_node_name :
+  front : ultrasonicFrontBane
+  left : ultrasonicLeftBane
+  right : ultrasonicRightBane
+pid_param : 
+  k_p : 1.5
+  k_d : 0.5
+  k_i : 0.0
+pwm : 
+  forward : 95
+  rotation : 85
+
+motor_pins : 
+  m1_l : 18
+  m1_r : 23
+  m2_l : 24
+  m2_r : 25
+
+position_topic : pose_bane
+
+command_service_name : execute_command_bane
+
+workspace_dim:
+  x : 5
+  y : 5

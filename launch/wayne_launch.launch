@@ -1,0 +1,8 @@
+<launch>
+        <node pkg="mobile_robot" name="ultrasonicFrontBane" type="publishUltrasonicFront.py"/>
+        <node pkg="mobile_robot" name="ultrasonicLeftBane" type="publishUltrasonicLeft.py"/>
+        <node pkg="mobile_robot" name="ultrasonicRightBane" type="publishUltrasonicRight.py"/>
+
+        
+
+</launch>
